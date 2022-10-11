@@ -1,6 +1,16 @@
 .App {
-  text-align: center;
+  text-align: center; 
+  
 }
 .heading{
   font-size: 45px;
+}
+.author{
+  font-size: 35px;
+  color: rgb(88, 88, 88);
+}
+.App span{
+  font-size: larger;
+  color: brown;
+
 }
