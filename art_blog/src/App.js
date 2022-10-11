@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <header className="Header">
@@ -14,7 +14,14 @@ function App() {
          <span>
              his Full Name is {NameHandler(user)}
          </span>
+         <br />
+         <span className="user">
+          Current user : {props.name}
+         </span>
       </header>
+       
+       {/*  Props
+        */}  
     </div>
   );
 }
